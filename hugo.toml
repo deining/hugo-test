@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+title = 'Broken anchor links (hugo v0.123.0)'
+
+disableKinds = ['rss','sitemap','taxonomy','term']
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages.en]
+contentDir = 'content/en'
+weight = 1
