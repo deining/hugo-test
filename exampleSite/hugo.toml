@@ -4,3 +4,5 @@ title = 'My New Hugo Site'
 
 [module]
   workspace = "go.work"
+[[module.imports]]
+  path = "github.com/deining/hugo-test"
